@@ -6,7 +6,7 @@ equipo: "Nombre del equipo (si aplica)"
 estado: borrador   # borrador | completa
 ---
 
-# Sesión 2 — conceptos básicos de electrónica
+# Sesión 2 — Componentes básicos 
 ## Qué debía lograr hoy
 - [x] Lograr que un LED encienda de forma básica
 - [x] Conseguir que ese LED parpadeara sin usar código

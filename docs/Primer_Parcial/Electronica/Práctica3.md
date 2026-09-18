@@ -6,7 +6,7 @@ equipo: "Nombre del equipo (si aplica)"
 estado: borrador   # borrador | completa
 ---
 
-# Sesión 4 — Puente H, control de motores DC y servomotor
+# Sesión 4 — Puentes H,motores DC y servos
 
 ## Qué debía lograr hoy
 - [x] Simular el control de dos motores DC con un puente H (L293D)
