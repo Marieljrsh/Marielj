@@ -1,12 +1,12 @@
 ---
 titulo: "Sesión 3 — ESP32, control de LEDs"
 fecha: 2026-09-18
-autor: "Nombre"
+autor: "Rosas Mariel"
 equipo: "Nombre del equipo (si aplica)"
 estado: borrador   # borrador | completa
 ---
 
-# Sesión 3 — ESP32, control de LEDs
+# Sesión 3 — ESP32: control por botón y bluetooth
 
 ## Qué debía lograr hoy
 - [x] Encender un LED con el ESP32
@@ -27,31 +27,55 @@ estado: borrador   # borrador | completa
 - Cable USB
 
 ## Qué hice y qué pasó (evidencia)
-![LED encendido mediante ESP32 con resistencia en protoboard](../../recursos/imgs/esp32_led_encendido.png)
-*LED encendido mediante el ESP32, conectado a través de una resistencia en la protoboard.*
 
-![Dos LEDs parpadeando a destiempo con ESP32](../../recursos/imgs/esp32_leds_destiempo.png)
-*Dos LEDs (rojo y azul) parpadeando a destiempo, cada uno controlado de forma independiente con el ESP32.*
+![LED encendido con ESP32](../../recursos/imgs/ESP32%201.jpeg)
 
-![Botón de entrada activando LED con el ESP32](../../recursos/imgs/esp32_boton_led.png)
-*Al presionar el botón se enciende un LED y, al soltarlo, se enciende el otro.*
+*ESP32 alimentando un LED azul a través de una resistencia en la protoboard.*
 
-![Señal de botón en monitor serial del ESP32](../../recursos/imgs/esp32_serial.png)
-*Al presionar el botón, el ESP32 detecta el estado del pin y envía la señal "PRESIONADO" a la computadora mediante el monitor serial.*
+![Código imprimiendo "Hola Mundo"](../../recursos/imgs/HOLAMUNDO.jpeg)
 
-![Código Arduino para Bluetooth con ESP32](../../recursos/imgs/esp32_bluetooth_codigo.png)
-*Código en Arduino IDE que configura el ESP32 como dispositivo Bluetooth, permitiendo recibir comandos "ON"/"OFF" desde el celular.*
+*Primer programa en Arduino IDE que imprime "Hola Mundo" repetidamente por el monitor serial del ESP32.*
 
-![Código Arduino para control de LEDs por señal recibida](../../recursos/imgs/esp32_control_led_codigo.png)
-*Código en Arduino IDE donde el ESP32 lee el estado de un pin de entrada y enciende o apaga los LEDs según la señal recibida.*
+![LED parpadeando con ESP32](../../recursos/imgs/ledESP32.jpeg)
+
+*LED azul parpadeando, controlado mediante el ESP32 mientras el LED rojo permanece apagado en la protoboard.*
+
+![Código para hacer parpadear el LED](../../recursos/imgs/codigoesp32led.jpeg)
+
+*Código en Arduino que alterna el estado de dos pines cada segundo para lograr el efecto de parpadeo del LED.*
+
+![Código para detectar botón presionado](../../recursos/imgs/SERIALESP32.jpeg)
+
+*Código en Arduino que lee el estado de un pin digital y envía "Presionado" o "No" por el monitor serial según se accione el botón.*
+
+![Búsqueda de dispositivos Bluetooth desde el celular](../../recursos/imgs/bLUETHOOT.jpeg)
+
+*Celular buscando el ESP32 entre los dispositivos Bluetooth disponibles para vincularse y recibir la señal del botón.*
+
+![Código de envío de estado del botón por Bluetooth](../../recursos/imgs/CODIGOALAN.jpeg)
+
+*Código en Arduino que configura el ESP32 como dispositivo Bluetooth ("Alan") y envía "Sí" o "No" al celular según el estado del botón.*
+
+![Terminal Bluetooth recibiendo el estado del botón](../../recursos/imgs/siNOALAN.jpeg)
+
+*Terminal Bluetooth en el celular mostrando en tiempo real los mensajes "Sí"/"No" enviados por el ESP32 según el estado del botón.*
+
+![Código para encender/apagar el LED vía Bluetooth](../../recursos/imgs/BLUTUALANA.jpeg)
+
+*Código en Arduino que recibe los comandos "ON" y "OFF" desde el celular por Bluetooth para controlar el estado del LED.*
+
+![LED encendido desde el celular vía Bluetooth](../../recursos/imgs/onalan.jpeg)
+
+*LED encendido en la protoboard tras enviar el comando "ON" desde la terminal Bluetooth del celular al ESP32.*
 
 ## Qué falló y cómo lo resolví
-- **Síntoma:** Se confundían los pines de entrada y salida en el código.
-- **Cómo lo encontré:** Revisando línea por línea la programación contra la conexión física del circuito y comparando con la disposición de pines del ESP32.
-- **Solución:** Consulté la datasheet del ESP32 y corregí la asignación de pines para que las entradas y salidas coincidieran con el hardware real.
 
-## Qué aprendí
-Aprendí a identificar entradas y salidas del ESP32 e interpretar su datasheet; a controlar el estado de un LED desde código; y a entender que el ESP32 puede comunicarse por Bluetooth con un celular para recibir órdenes en tiempo real. También comprendí que un “error de conexión” puede ser un problema de configuración lógica y no solo físico.
+- **Síntoma:** Al intentar enlazar el ESP32 por Bluetooth, la señal no llegaba al celular y no se lograba establecer la conexión.
+- **Cómo lo encontré:** Se intentó vincular varias veces desde la app del celular, notando que el ESP32 no aparecía o no respondía a la solicitud de emparejamiento.
+- **Solución:** Se reinició el ESP32 y se volvió a subir el código, verificando que el nombre del dispositivo Bluetooth coincidiera con el que buscaba el celular, logrando así establecer la conexión correctamente.
+
+## Qué aprendí  
+Antes no sabía qué tan accesible podía ser programar y controlar un ESP32, pero aprendí que manejarlo es bastante sencillo y hasta divertido una vez que entiendes la lógica básica. También comprendí que el Bluetooth se puede aprovechar para muchas cosas más allá de solo prender un LED, ya que basta con enviar mensajes de texto simples para controlar el circuito. Y entendí cómo se mueve la señal entre el celular y el ESP32: los datos viajan como cadenas de texto que el microcontrolador interpreta y compara para decidir qué acción ejecutar.
 
 ## Siguiente paso
-Explorar cómo controlar más de un LED de forma independiente vía Bluetooth desde el celular.
+Explorar cómo controlar más de un componente a la vez usando Bluetooth desde el celular.

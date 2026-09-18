@@ -1,5 +1,5 @@
 ---
-titulo: "Sesión 2 — Conceptos básicos de electrónica"
+titulo: "Sesión 2 — Primer LED con resistencia y capacitor"
 fecha: 2026-09-18
 autor: "Rosas Mariel "
 equipo: "Nombre del equipo (si aplica)"
@@ -8,8 +8,8 @@ estado: borrador   # borrador | completa
 
 # Sesión 2 — conceptos básicos de electrónica
 ## Qué debía lograr hoy
-- [✅] Lograr que un LED encienda de forma básica
-- [✅] Conseguir que ese LED parpadeara sin usar código
+- [x] Lograr que un LED encienda de forma básica
+- [x] Conseguir que ese LED parpadeara sin usar código
 
 ## Qué usé
 - CI Temporizador 555
