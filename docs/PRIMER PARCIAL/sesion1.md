@@ -2,7 +2,7 @@
 ## MI DOCUMENTO DE MI PORTAFOLIO
 ![Diagrama del sistema](../recursos/imgs/mariel_foto.jpeg)
 -
-Actualmente estudio **Ingeniería mecatrónica** en la universidad IBEROAMERICANA en Puebla.
+Actualmente estudio **Ingeniería mecatrónica** en la universidad IBEROAMERICANA Puebla.
 
 ### ¿Porqué decidí estudiar mecatrónica?
 
