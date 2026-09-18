@@ -9,7 +9,7 @@ estado: borrador   # borrador | completa
 # Sesión 3 — ESP32: control por botón y bluetooth
 
 ## Qué debía lograr hoy
--## Qué debía lograr hoy
+- Qué debía lograr hoy
 - [✅] Encender un LED con el ESP32
 - [✅] Hacer que un LED parpadee con el ESP32
 - [✅] Imprimir mensajes por el monitor serial desde el ESP32
