@@ -6,12 +6,14 @@ equipo: "Nombre del equipo (si aplica)"
 estado: borrador   # borrador | completa
 ---
 
-# Sesión 4 — Puentes H,motores DC y servos
+# Sesión 4 — Puentes H, motores DC y servos
 
 ## Qué debía lograr hoy
-- [x] Simular el control de dos motores DC con un puente H (L293D)
-- [x] Controlar el sentido de giro de un motor DC (adelante, atrás, izquierda, derecha)
-- [x] Encender y controlar un servomotor con Arduino
+## Qué debía lograr hoy
+- [✅] Simular el control de un motor DC con un puente H (L293D)
+- [✅] Simular el control de dos motores DC, cada uno con su propio puente H
+- [✅] Controlar el sentido de giro de un motor DC (adelante, atrás, izquierda, derecha)
+- [✅] Encender y controlar un servomotor con Arduino
 
 ## Qué usé
 - Arduino UNO (simulado en Tinkercad)
@@ -22,10 +24,6 @@ estado: borrador   # borrador | completa
 - Cables de conexión (simulados en Tinkercad)
 
 ## Qué hice y qué pasó (evidencia)
-![Datasheet del ESP32-DevKitC](../../recursos/imgs/datasheet.jpeg)
-
-*Diagrama de pines del ESP32-DevKitC consultado para identificar correctamente las entradas y salidas usadas en el circuito.*
-
 ![Simulación de motor DC con puente H en Tinkercad](../../recursos/imgs/Primer%20motor.jpeg)
 
 *Simulación en Tinkercad de un Arduino UNO controlando un motor DC mediante el módulo puente H L293D.*

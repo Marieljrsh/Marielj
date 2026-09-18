@@ -8,8 +8,8 @@ estado: borrador   # borrador | completa
 
 # Sesión 2 — Componentes básicos 
 ## Qué debía lograr hoy
-- [x] Lograr que un LED encienda de forma básica
-- [x] Conseguir que ese LED parpadeara sin usar código
+- [✅] Lograr que un LED encienda de forma básica
+- [✅] Conseguir que ese LED parpadeara sin usar código
 
 ## Qué usé
 - CI Temporizador 555
@@ -34,11 +34,12 @@ estado: borrador   # borrador | completa
 
 *Segundo montaje del circuito, ahora con el LED parpadeando y monitoreado con la punta del osciloscopio.*
 
-![Señal eléctrica observada en el osciloscopio](../../recursos/imgs/capacitor%20ceramico.jpeg)
+![Cambio de capacitor a cerámico](../../recursos/imgs/capacitor%20ceramico.jpeg)
 
 *Vista cercana del CI 555 con el capacitor cerámico sustituyendo al electrolítico en el circuito.*
 
 ![Lectura del osciloscopio con capacitor cerámico](../../recursos/imgs/osciloscopio.jpeg)
+
 *Señal capturada con el capacitor cerámico, mostrando una frecuencia mucho más alta que hace parecer el parpadeo del LED como una luz fija.*
 
 ## Qué falló y cómo lo resolví

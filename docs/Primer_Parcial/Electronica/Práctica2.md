@@ -9,13 +9,14 @@ estado: borrador   # borrador | completa
 # Sesión 3 — ESP32: control por botón y bluetooth
 
 ## Qué debía lograr hoy
-- [x] Encender un LED con el ESP32
-- [x] Encender dos LEDs al mismo tiempo con el ESP32
-- [x] Hacer que dos LEDs parpadeen a destiempo con el ESP32
-- [x] Hacer que un LED parpadee al presionar un botón con el ESP32
-- [x] Presionar el botón para que, con ayuda del ESP32, la computadora reciba una señal
-- [x] Conectar el ESP32 al teléfono para enviar una señal al presionar el botón
-- [x] Conectar el teléfono al ESP32 para encender o apagar el LED
+-## Qué debía lograr hoy
+- [✅] Encender un LED con el ESP32
+- [✅] Hacer que un LED parpadee con el ESP32
+- [✅] Imprimir mensajes por el monitor serial desde el ESP32
+- [✅] Detectar si un botón está presionado y enviar el estado por serial
+- [✅] Conectar el ESP32 al teléfono por Bluetooth
+- [✅] Enviar el estado del botón ("Sí"/"No") al teléfono vía Bluetooth
+- [✅] Recibir comandos ("ON"/"OFF") desde el teléfono para encender o apagar el LED
 
 ## Qué usé
 - ESP32
@@ -69,6 +70,10 @@ estado: borrador   # borrador | completa
 *LED encendido en la protoboard tras enviar el comando "ON" desde la terminal Bluetooth del celular al ESP32.*
 
 ## Qué falló y cómo lo resolví
+
+![Datasheet del ESP32-DevKitC](../../recursos/imgs/datasheet.jpeg)
+
+*Diagrama de pines del ESP32-DevKitC consultado para identificar correctamente las entradas y salidas usadas en el circuito.*
 
 - **Síntoma:** Al intentar enlazar el ESP32 por Bluetooth, la señal no llegaba al celular y no se lograba establecer la conexión.
 - **Cómo lo encontré:** Se intentó vincular varias veces desde la app del celular, notando que el ESP32 no aparecía o no respondía a la solicitud de emparejamiento.
