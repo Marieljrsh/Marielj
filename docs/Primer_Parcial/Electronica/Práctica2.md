@@ -40,11 +40,11 @@ estado: borrador   # borrador | completa
 
 *LED azul parpadeando, controlado mediante el ESP32 mientras el LED rojo permanece apagado en la protoboard.*
 
-![Código para hacer parpadear el LED](../../recursos/imgs/codigoesp32led.jpeg)
+![Código para hacer parpadear el LED](../../recursos/imgs/on_off_2leds.png)
 
 *Código en Arduino que alterna el estado de dos pines cada segundo para lograr el efecto de parpadeo del LED.*
 
-![Código para detectar botón presionado](../../recursos/imgs/SERIALESP32.jpeg)
+![Código para detectar botón presionado](../../recursos/imgs/si_no_botón.png)
 
 *Código en Arduino que lee el estado de un pin digital y envía "Presionado" o "No" por el monitor serial según se accione el botón.*
 
@@ -52,7 +52,7 @@ estado: borrador   # borrador | completa
 
 *Celular buscando el ESP32 entre los dispositivos Bluetooth disponibles para vincularse y recibir la señal del botón.*
 
-![Código de envío de estado del botón por Bluetooth](../../recursos/imgs/CODIGOALAN.jpeg)
+![Código de envío de estado del botón por Bluetooth](../../recursos/imgs/sino_P32.png)
 
 *Código en Arduino que configura el ESP32 como dispositivo Bluetooth ("Alan") y envía "Sí" o "No" al celular según el estado del botón.*
 
@@ -60,7 +60,7 @@ estado: borrador   # borrador | completa
 
 *Terminal Bluetooth en el celular mostrando en tiempo real los mensajes "Sí"/"No" enviados por el ESP32 según el estado del botón.*
 
-![Código para encender/apagar el LED vía Bluetooth](../../recursos/imgs/BLUTUALANA.jpeg)
+![Código para encender/apagar el LED vía Bluetooth](../../recursos/imgs/ONOFF.png)
 
 *Código en Arduino que recibe los comandos "ON" y "OFF" desde el celular por Bluetooth para controlar el estado del LED.*
 
