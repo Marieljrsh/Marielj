@@ -9,7 +9,6 @@ estado: borrador   # borrador | completa
 # Sesión 3 — ESP32: control por botón y bluetooth
 
 ## Qué debía lograr hoy
-- Qué debía lograr hoy
 - [✅] Encender un LED con el ESP32
 - [✅] Hacer que un LED parpadee con el ESP32
 - [✅] Imprimir mensajes por el monitor serial desde el ESP32
@@ -33,9 +32,9 @@ estado: borrador   # borrador | completa
 
 *ESP32 alimentando un LED azul a través de una resistencia en la protoboard.*
 
-![Código imprimiendo "Hola Mundo"](../../recursos/imgs/HOLAMUNDO.jpeg)
+![Código imprimiendo "Hola Mundo"](../../recursos//imgs/encender_apagar_led.png)
 
-*Primer programa en Arduino IDE que imprime "Hola Mundo" repetidamente por el monitor serial del ESP32.*
+*Primer programa en Arduino IDE que hace parpadear un LED de manera repetitiva en el ESP32, encendiéndolo y apagándolo con un intervalo de tiempo establecido.*
 
 ![LED parpadeando con ESP32](../../recursos/imgs/ledESP32.jpeg)
 
