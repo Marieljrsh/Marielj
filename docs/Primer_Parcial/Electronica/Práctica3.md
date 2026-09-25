@@ -32,7 +32,7 @@ estado: borrador   # borrador | completa
 
 *Simulación en Tinkercad con dos motores DC, cada uno controlado por su propio módulo puente H L293D, invirtiendo el sentido de giro mediante el código.*
 
-![Código con funciones de movimiento del motor](../../recursos/imgs/codigodosmotores.jpeg)
+![Código con funciones de movimiento del motor](../../recursos/imgs/ima___.jpeg)
 
 *Código en Tinkercad con las funciones Adelante, Atrás, Izq y Der, que combinan señales HIGH/LOW en el puente H para controlar la dirección del motor.*
 
