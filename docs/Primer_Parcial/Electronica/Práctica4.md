@@ -26,6 +26,26 @@ estado: borrador   # borrador | completa
 - Differential en 3D
 
 ## Qué hice y qué pasó (evidencia)
+### Intermittent Mechanism
+![Engrane intermittent](../../recursos/imgs/Intermittent.jpeg)
+### Bevel Gear
+![Engrane Bevel](../../recursos/imgs/Bevel.jpeg)
+### Universal Joint 
+![Uniervsal joint](../../recursos/imgs/Universel%20joint.jpeg)
+### Spiral 
+![Spiral](../../recursos/imgs/Spiral.jpeg)
+### Worm Gear 
+![Worm](../../recursos/imgs/worm.jpeg)
+### Shutter
+![Shutter](../../recursos/imgs/Shutter.jpeg)
+### Geneva Mechanism 
+![Geneva](../../recursos/imgs/Geneva.jpeg)
+### Star Wheel Mechanism
+![Intel](../../recursos/imgs/Intel.jpeg)
+### Differential
+![Diferencial](../../recursos/imgs/Diferencial.jpeg)
+### Cycloidal Gear 
+![Cycloidal](../../recursos/imgs/Cycloidal.jpeg)
 
 ## Relación de transmisión
 Para dos engranes acoplados, con **Z1** dientes en el engrane de entrada 
