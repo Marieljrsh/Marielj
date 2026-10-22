@@ -28,6 +28,7 @@ estado: borrador   # borrador | completa
 ## Qué hice y qué pasó (evidencia)
 ### Intermittent Mechanism
 ![Engrane intermittent](../../recursos/imgs/Intermittent.jpeg)
+"
 ### Bevel Gear
 ![Engrane Bevel](../../recursos/imgs/Bevel.jpeg)
 ### Universal Joint 
