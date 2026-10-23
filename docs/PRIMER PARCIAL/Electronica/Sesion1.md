@@ -1,6 +1,6 @@
 #  MARIEL JOCELYN ROSAS HERRERA
 ## MI DOCUMENTO DE MI PORTAFOLIO
-![Diagrama del sistema](../recursos/imgs/mariel_foto.jpeg)
+![Diagrama del sistema](../../recursos/imgs/mariel_foto.jpeg)
 -
 Actualmente estudio **Ingeniería mecatrónica** en la universidad IBEROAMERICANA Puebla.
 
@@ -15,8 +15,4 @@ Me pone feliz poder realizar muchos proyectos individualmente y en conjunto con 
 Me gusta mucho jugar tennis, armar cosas, aprender nuevas cosas y  conocer a personas.
 
 by- Mariel J (MJ)
-
-
-
-
 

@@ -1,4 +1,24 @@
 site_name: Plantilla para Documentación
+nav:
+  - Inicio: index.md
+  - Comandos: comandos.md
+  - Ejemplo: ejemplo.md
+  - Git: gitcmds.md
+  - PRIMER PARCIAL:
+      - Electronica:
+          - Sesion 1: "PRIMER PARCIAL/Electronica/Sesion1.md"
+          - Práctica 1: "PRIMER PARCIAL/Electronica/Práctica1.md"
+          - Práctica 2: "PRIMER PARCIAL/Electronica/Práctica2.md"
+          - Práctica 3: "PRIMER PARCIAL/Electronica/Práctica3.md"
+  - SEGUNDO PARCIAL:
+      - Control y visión:
+          - Práctica 4: "SEGUNDO PARCIAL/Control y visión/Práctica4.md"
+          - Práctica 5: "SEGUNDO PARCIAL/Control y visión/Práctica5.md"
+      - Proyecto 1:
+          - Chasis: "SEGUNDO PARCIAL/Proyecto 1/Chasis.md"
+          - Control: "SEGUNDO PARCIAL/Proyecto 1/Control.md"
+          - Electrónica: "SEGUNDO PARCIAL/Proyecto 1/Electrónica.md"
+          - Programación: "SEGUNDO PARCIAL/Proyecto 1/Programación.md"
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -37,4 +57,3 @@ theme:
 extra_css:
   - https://use.fontawesome.com/releases/v6.5.2/css/all.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
-

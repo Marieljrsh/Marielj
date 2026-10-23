@@ -32,7 +32,7 @@ estado: borrador   # borrador | completa
 
 *ESP32 alimentando un LED azul a través de una resistencia en la protoboard.*
 
-![Código imprimiendo "Hola Mundo"](../../recursos//imgs/encender_apagar_led.png)
+![Código imprimiendo "Hola Mundo"](../../recursos/imgs/encender_apagar_led.png)
 
 *Primer programa en Arduino IDE que hace parpadear un LED de manera repetitiva en el ESP32, encendiéndolo y apagándolo con un intervalo de tiempo establecido.*
 

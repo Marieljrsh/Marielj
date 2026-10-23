@@ -51,4 +51,3 @@ Antes no entendía bien cómo funcionaban los motores DC ni los servomotores, pe
 
 ## Siguiente paso
 Aplicar lo aprendido para armar un pequeño carro controlado con motores DC y puente H.
-
