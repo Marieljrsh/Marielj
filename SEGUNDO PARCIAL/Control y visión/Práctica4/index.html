@@ -1,0 +1,1867 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica3/">
+      
+      
+        <link rel="next" href="../Pr%C3%A1ctica5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Práctica 4 - Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sesion-4-mecanismos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Práctica 4
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comandos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ejemplo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ejemplo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gitcmds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PRIMER PARCIAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PRIMER PARCIAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electronica
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electronica
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesion 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SEGUNDO PARCIAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SEGUNDO PARCIAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control y visión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Control y visión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 4
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-debia-lograr-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué debía lograr hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué usé
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-hice-y-que-paso-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué hice y qué pasó (evidencia)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qué hice y qué pasó (evidencia)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intermittent-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intermittent Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bevel-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bevel Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-joint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Universal Joint
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spiral
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worm-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worm Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shutter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geneva-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geneva Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#star-wheel-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star Wheel Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#differential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycloidal-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cycloidal Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relacion-de-transmision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relación de transmisión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relación de transmisión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interpretación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trenes-de-engranes-compuestos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trenes de engranes compuestos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-resuelto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo resuelto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-calcular-la-relacion-de-transmision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejercicio: calcular la relación de transmisión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio: calcular la relación de transmisión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabla-de-estaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabla de estaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-fallo-y-como-lo-resolvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué falló y cómo lo resolví
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pr%C3%A1ctica5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proyecto%201/Chasis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chasis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proyecto%201/Control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proyecto%201/Electr%C3%B3nica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrónica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Proyecto%201/Programaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-debia-lograr-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué debía lograr hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué usé
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-hice-y-que-paso-evidencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué hice y qué pasó (evidencia)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qué hice y qué pasó (evidencia)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intermittent-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intermittent Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bevel-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bevel Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-joint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Universal Joint
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spiral
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worm-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worm Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shutter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shutter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geneva-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geneva Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#star-wheel-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star Wheel Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#differential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycloidal-gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cycloidal Gear
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relacion-de-transmision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relación de transmisión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relación de transmisión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interpretacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interpretación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trenes-de-engranes-compuestos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trenes de engranes compuestos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-resuelto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo resuelto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-calcular-la-relacion-de-transmision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejercicio: calcular la relación de transmisión
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejercicio: calcular la relación de transmisión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resultados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabla-de-estaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabla de estaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-fallo-y-como-lo-resolvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué falló y cómo lo resolví
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="sesion-4-mecanismos">Sesión 4 — Mecanismos</h1>
+<h2 id="que-debia-lograr-hoy">Qué debía lograr hoy</h2>
+<ul>
+<li>[✅] Entender cómo los mecanismos transforman el movimiento</li>
+<li>[✅] Calcular relaciones de transmisión simples</li>
+</ul>
+<h2 id="que-use">Qué usé</h2>
+<ul>
+<li>Planetary en 3D</li>
+<li>Bevel en 3D</li>
+<li>Spiral en 3D</li>
+<li>Cycloidal drive en 3D</li>
+<li>Worm/Worm drive en 3D</li>
+<li>Pulley en 3D</li>
+<li>Intermittent en 3D</li>
+<li>Geneva en 3D</li>
+<li>Universal joint en 3D</li>
+<li>Shutter en 3D</li>
+<li>Differential en 3D</li>
+</ul>
+<p><img alt="Diagrama de transmisión de motor" src="../../../recursos/imgs/Esq_motor.jpeg" /></p>
+<p><em>Un motor que gira rápido pero con poca fuerza puede entregar una salida lenta y potente si se usan engranes o bandas.</em></p>
+<h2 id="que-hice-y-que-paso-evidencia">Qué hice y qué pasó (evidencia)</h2>
+<h3 id="intermittent-mechanism">Intermittent Mechanism</h3>
+<p><img alt="Engrane intermittent" src="../../../recursos/imgs/Intermittent.jpeg" /></p>
+<h3 id="bevel-gear">Bevel Gear</h3>
+<p><img alt="Engrane Bevel" src="../../../recursos/imgs/Bevel.jpeg" /></p>
+<h3 id="universal-joint">Universal Joint</h3>
+<p><img alt="Uniervsal joint" src="../../../recursos/imgs/Universel%20joint.jpeg" /></p>
+<h3 id="spiral">Spiral</h3>
+<p><img alt="Spiral" src="../../../recursos/imgs/Spiral.jpeg" /></p>
+<h3 id="worm-gear">Worm Gear</h3>
+<p><img alt="Worm" src="../../../recursos/imgs/worm.jpeg" /></p>
+<h3 id="shutter">Shutter</h3>
+<p><img alt="Shutter" src="../../../recursos/imgs/Shutter.jpeg" /></p>
+<h3 id="geneva-mechanism">Geneva Mechanism</h3>
+<p><img alt="Geneva" src="../../../recursos/imgs/Geneva.jpeg" /></p>
+<h3 id="star-wheel-mechanism">Star Wheel Mechanism</h3>
+<p><img alt="Intel" src="../../../recursos/imgs/Intel.jpeg" /></p>
+<h3 id="differential">Differential</h3>
+<p><img alt="Diferencial" src="../../../recursos/imgs/Diferencial.jpeg" /></p>
+<h3 id="cycloidal-gear">Cycloidal Gear</h3>
+<p><img alt="Cycloidal" src="../../../recursos/imgs/Cycloidal.jpeg" /></p>
+<h2 id="relacion-de-transmision">Relación de transmisión</h2>
+<p>Si dos engranes están acoplados, con <strong>Z1</strong> dientes en el de entrada (motriz) 
+y <strong>Z2</strong> dientes en el de salida (conducido), la relación de transmisión (i) es:</p>
+<div class="language-text highlight"><pre><span></span><code>i = Z2 / Z1 = w_entrada / w_salida = tau_salida / tau_entrada
+</code></pre></div>
+<h3 id="interpretacion">Interpretación</h3>
+<table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>Tipo</th>
+<th>Qué pasa en la salida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>i &gt; 1</strong></td>
+<td>Reductor</td>
+<td>Gira más lento y entrega más par (fuerza)</td>
+</tr>
+<tr>
+<td><strong>i &lt; 1</strong></td>
+<td>Multiplicador</td>
+<td>Gira más rápido y entrega menos par</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>La velocidad angular (w) y el par (tau) cambian en sentido contrario:<ul>
+<li>w2 = w1 / i</li>
+<li>tau2 = tau1 * i   (sin contar las pérdidas por fricción)</li>
+</ul>
+</li>
+<li>Un engrane no fabrica energía: solo la transforma. Lo que se gana en fuerza se pierde en velocidad, o al revés, dependiendo del número de dientes de cada engrane.</li>
+</ul>
+<h3 id="trenes-de-engranes-compuestos">Trenes de engranes compuestos</h3>
+<p>Si hay varias etapas en serie, la relación total es el <strong>producto</strong> de las relaciones de cada etapa. 
+Ejemplo: una etapa de 1:4 seguida de otra de 1:16 da 4 × 16 = 64. Por eso una caja 
+reductora tipo motor TT alcanza 1:48 ocupando muy poco espacio.</p>
+<h3 id="ejemplo-resuelto">Ejemplo resuelto</h3>
+<p>Un piñón de 12 dientes mueve un engrane de 36 dientes:</p>
+<div class="language-text highlight"><pre><span></span><code>i = 36 / 12 = 3
+</code></pre></div>
+<p>La salida gira a 1/3 de la velocidad de entrada, pero con 3 veces más par.</p>
+<h2 id="ejercicio-calcular-la-relacion-de-transmision">Ejercicio: calcular la relación de transmisión</h2>
+<h3 id="datos">Datos</h3>
+<table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>Motriz</th>
+<th>Conducido</th>
+<th>Dato conocido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Z₁ = 5</td>
+<td>Z₂ = 10</td>
+<td>ω₂ = 10 rpm, τ₁ = 1 N·cm</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Z₃ = 5</td>
+<td>Z₄ = 20</td>
+<td>ω₃ = 20 rpm, τ₃ = 4 N·cm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Qué se busca:</strong> ω₁ y τ₂ en el caso A; ω₄ y τ₄ en el caso B.</p>
+<h3 id="caso-a">Caso A</h3>
+<div class="language-text highlight"><pre><span></span><code>i_A = Z₂ / Z₁ = 10 / 5 = 2
+ω₁ = i_A · ω₂ = 2 · 10 = 20 rpm
+τ₂ = i_A · τ₁ = 2 · 1 = 2 N·cm
+</code></pre></div>
+<h3 id="caso-b">Caso B</h3>
+<div class="language-text highlight"><pre><span></span><code>i_B = Z₄ / Z₃ = 20 / 5 = 4
+ω₄ = ω₃ / i_B = 20 / 4 = 5 rpm
+τ₄ = i_B · τ₃ = 4 · 4 = 16 N·cm
+</code></pre></div>
+<h3 id="resultados">Resultados</h3>
+<table>
+<thead>
+<tr>
+<th>Caso</th>
+<th>i</th>
+<th>Velocidad</th>
+<th>Par</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>2</td>
+<td>Entrada ω₁ = 20 rpm, salida ω₂ = 10 rpm</td>
+<td>τ₂ = 2 N·cm</td>
+</tr>
+<tr>
+<td>B</td>
+<td>4</td>
+<td>Salida ω₄ = 5 rpm</td>
+<td>τ₄ = 16 N·cm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Conclusión:</strong> en los dos casos i &gt; 1, o sea que el sistema baja la velocidad y sube el par en la misma proporción.</p>
+<hr />
+<h2 id="tabla-de-estaciones">Tabla de estaciones</h2>
+<table>
+<thead>
+<tr>
+<th>Estación</th>
+<th>¿Qué transforma?</th>
+<th>Relación i estimada</th>
+<th>¿Reversible o autobloqueante?</th>
+<th>¿Dónde lo has visto en la vida real?</th>
+<th>¿Dónde serviría en el carro o en un proyecto tuyo?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A - Diferencial</td>
+<td>Reparte una entrada de giro en dos salidas que pueden ir a distinta velocidad con el mismo par</td>
+<td>Corona-piñón de ≈ 3:1 a 4:1; satélites 1:1; entre salidas ~1:1 en recta y variable en curva</td>
+<td>Reversible, NO autobloqueante</td>
+<td>Eje trasero/delantero de un carro</td>
+<td>Permite que las ruedas giren distinto en las curvas; ruedas independientes de un robot que da vuelta</td>
+</tr>
+<tr>
+<td>B - Cicloidal</td>
+<td>Velocidad ↔ par: gran reducción en poco espacio y con poco juego (backlash)</td>
+<td>Alta, típico 30:1 a 100:1+ (se cuentan las vueltas de entrada por cada una de salida)</td>
+<td>Reversible pero con mucha fricción interna; casi autobloqueante</td>
+<td>Modelo de práctica (engrane azul con lóbulos internos); articulaciones de robots industriales</td>
+<td>Articulaciones de robots, dirección asistida; reductor compacto para un brazo de precisión</td>
+</tr>
+<tr>
+<td>C - Cardán</td>
+<td>Cambio de eje: transmite el giro entre ejes con ángulo; la salida acelera y frena dos veces por vuelta</td>
+<td>1:1 en promedio, con fluctuación</td>
+<td>Reversible, NO autobloqueante</td>
+<td>Modelo de práctica (junta azul); flecha cardán del carro</td>
+<td>Flecha entre la caja de velocidades y el diferencial; mover una rueda con ángulo variable</td>
+</tr>
+<tr>
+<td>D - Obturador</td>
+<td>De continuo a intermitente: una sola entrada mueve varias láminas sincronizadas (no usa dientes)</td>
+<td>Depende del número de láminas</td>
+<td>Reversible, NO autobloqueante</td>
+<td>Modelo de práctica (obturador negro con aspas azules); diafragma de una cámara</td>
+<td>Iris para regular el paso de aire o luz; apertura/cierre en un proyecto</td>
+</tr>
+<tr>
+<td>E1a - Cónico recto (Bevel)</td>
+<td>Cambio de eje a 90° con dientes rectos en forma de cono</td>
+<td>i = Z₂/Z₁ (se cuentan los dientes de piñón y corona)</td>
+<td>Reversible</td>
+<td>Transmisiones de taladros manuales y mecanismos angulares</td>
+<td>Cambiar la dirección del giro del motor hacia las ruedas</td>
+</tr>
+<tr>
+<td>E1b - Cónico espiral (Spiral)</td>
+<td>Cambio de eje a 90° con dientes curvos en espiral, de contacto más suave y silencioso que el recto</td>
+<td>i = Z₂/Z₁ (se cuentan los dientes de piñón y corona)</td>
+<td>Reversible</td>
+<td>Diferenciales de camionetas y autos</td>
+<td>Par cónico del diferencial trasero</td>
+</tr>
+<tr>
+<td>E2a - Engrane intermitente (Intermittent)</td>
+<td>De continuo a intermitente: la entrada gira sin parar y la salida avanza con pausas</td>
+<td>Depende de los dientes y de las pausas por vuelta</td>
+<td>NO autobloqueante</td>
+<td>Mecanismos de avance por pasos (contadores, juguetes)</td>
+<td>Hacer que una pieza avance por pasos</td>
+</tr>
+<tr>
+<td>E2b - Ginebra (Geneva)</td>
+<td>De continuo a intermitente: cada vuelta de entrada mueve la salida un paso fijo</td>
+<td>1 vuelta de entrada = 1/n de vuelta de salida, con n ranuras</td>
+<td>Se traba durante la pausa</td>
+<td>Proyectores de cine antiguos, relojes mecánicos</td>
+<td>Indexar posiciones (selector o carrusel)</td>
+</tr>
+<tr>
+<td>F - Planetario (Planetary)</td>
+<td>Velocidad ↔ par: reducción compacta con ejes en el mismo centro</td>
+<td>Depende de qué elemento se fije (sol, planetas o corona)</td>
+<td>Reversible</td>
+<td>Cajas automáticas, taladros y atornilladores eléctricos</td>
+<td>Reducción compacta en un motorreductor</td>
+</tr>
+<tr>
+<td>G - Tornillo sin fin (Worm)</td>
+<td>Cambio de eje a 90° con una reducción muy grande en una sola etapa</td>
+<td>i = Z_rueda / entradas del tornillo</td>
+<td>Autobloqueante (la rueda no logra mover al tornillo)</td>
+<td>Clavijas de guitarra, elevadores y portones</td>
+<td>Cualquier mecanismo que no deba retroceder al apagar el motor</td>
+</tr>
+<tr>
+<td>H - Polea (Pulley)</td>
+<td>Velocidad ↔ par mediante una banda entre dos ejes separados</td>
+<td>i = D₂/D₁ (diámetros de las poleas)</td>
+<td>Reversible</td>
+<td>Banda del motor en un auto, máquinas de coser</td>
+<td>Llevar el giro del motor a un eje alejado</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Nota: la columna de vida real de E1a, E1b, E2a, E2b, F, G y H la llené con ejemplos comunes; confírmalos con tus modelos o con tu profe.</p>
+</blockquote>
+<h2 id="que-fallo-y-como-lo-resolvi">Qué falló y cómo lo resolví</h2>
+<ul>
+<li><strong>Síntoma:</strong> No me coincidía el resultado del ejemplo (piñón de 12 dientes 
+  moviendo un engrane de 36). Dudaba si i = Z1/Z2 o i = Z2/Z1 y no tenía claro 
+  qué significaba el número que salía. En el ejercicio de 5 y 10 dientes me daba 
+  i = 1/2, pero con la fórmula de la teoría salía i = 2.</li>
+<li><strong>Cómo lo encontré:</strong> Comparé mi cálculo con el ejemplo resuelto (i = 36/12 = 3) 
+  y vi que las dos definiciones estaban al revés: en mi cuaderno usaba 
+  Z_motriz / Z_conducido y la teoría usa Z_conducido / Z_motriz. También noté 
+  que cuando el conducido tiene más dientes la salida gira más lento, así que 
+  la velocidad se divide entre i y el par se multiplica por i.</li>
+<li><strong>Solución:</strong> Me quedé con una sola convención para toda la práctica: 
+  i = Z_conducido / Z_motriz, con Z2 (el</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

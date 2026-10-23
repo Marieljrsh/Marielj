@@ -1,0 +1,1567 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Control/">
+      
+      
+        <link rel="next" href="../Programaci%C3%B3n/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Electrónica - Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proyecto-parte-1-electronica-del-carrito" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Electrónica
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comandos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ejemplo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ejemplo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gitcmds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PRIMER PARCIAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PRIMER PARCIAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electronica
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electronica
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesion 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PRIMER%20PARCIAL/Electronica/Pr%C3%A1ctica3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SEGUNDO PARCIAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SEGUNDO PARCIAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control y visión
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Control y visión
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Control%20y%20visi%C3%B3n/Pr%C3%A1ctica4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Control%20y%20visi%C3%B3n/Pr%C3%A1ctica5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chasis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chasis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrónica
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrónica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-de-la-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivos de la sesión
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materiales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desarrollo-y-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desarrollo y resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desarrollo y resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-general-del-circuito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea general del circuito
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recorrido-de-la-energia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recorrido de la energía
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conexiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conexiones
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agrupacion-de-los-pines-del-tb6612" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agrupación de los pines del TB6612
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mediciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mediciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lista-de-revision-antes-de-encender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lista de revisión antes de encender
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitaciones-del-montaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitaciones del montaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemas-encontrados-y-como-los-resolvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas encontrados y cómo los resolví
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones-y-aprendizajes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusiones y aprendizajes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximos-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Próximos pasos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Programaci%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivos-de-la-sesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivos de la sesión
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materiales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desarrollo-y-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desarrollo y resultados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desarrollo y resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#idea-general-del-circuito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Idea general del circuito
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recorrido-de-la-energia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recorrido de la energía
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conexiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conexiones
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agrupacion-de-los-pines-del-tb6612" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agrupación de los pines del TB6612
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mediciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mediciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lista-de-revision-antes-de-encender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lista de revisión antes de encender
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitaciones-del-montaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitaciones del montaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemas-encontrados-y-como-los-resolvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problemas encontrados y cómo los resolví
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones-y-aprendizajes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusiones y aprendizajes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proximos-pasos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Próximos pasos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="proyecto-parte-1-electronica-del-carrito">Proyecto Parte 1 — Electrónica del carrito</h1>
+<h2 id="objetivos-de-la-sesion">Objetivos de la sesión</h2>
+<ul>
+<li>[✅] Unir el ESP32 con el puente H TB6612FNG</li>
+<li>[✅] Conectar los dos motores DC a las salidas del puente H</li>
+<li>[✅] Dar energía al circuito con pilas y un interruptor de encendido</li>
+<li>[✅] Extra · Documentar el recorrido de la energía y una lista de revisión por si algo falla</li>
+</ul>
+<h2 id="materiales">Materiales</h2>
+<ul>
+<li>ESP32 DevKit (ESP32-WROOM-32)</li>
+<li>Módulo puente H TB6612FNG (rojo)</li>
+<li>2 motorreductores DC tipo TT</li>
+<li>Portapilas con 4 pilas AA (6 V) e interruptor</li>
+<li>Power bank de 5 V para el ESP32</li>
+<li>Interruptor basculante (switch)</li>
+<li>Protoboard mini</li>
+<li>Cables jumper</li>
+<li>Multímetro</li>
+</ul>
+<h2 id="desarrollo-y-resultados">Desarrollo y resultados</h2>
+<h3 id="idea-general-del-circuito">Idea general del circuito</h3>
+<p>El circuito tiene dos partes separadas que solo comparten la tierra. La parte de <strong>control</strong> es el ESP32, que decide qué hacer y manda señales de bajo consumo. La parte de <strong>potencia</strong> son las pilas, el puente H y los motores, que es donde circula la corriente grande. El ESP32 no puede mover los motores directamente porque sus pines entregan muy poca corriente, así que el TB6612 funciona como intermediario: recibe las órdenes del ESP32 y las convierte en corriente para los motores. Las pilas pasan por el interruptor antes de llegar al puente H, de modo que al apagarlo se cortan los motores sin desconectar el ESP32. Este último se alimenta aparte con la power bank de 5 V. El pin STBY quedó unido a 3.3 V para que el driver esté siempre habilitado.</p>
+<h3 id="recorrido-de-la-energia">Recorrido de la energía</h3>
+<table>
+<thead>
+<tr>
+<th>Tramo</th>
+<th>Voltaje</th>
+<th>Qué alimenta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pilas → interruptor → VM</td>
+<td>6 V</td>
+<td>Los motores (potencia)</td>
+</tr>
+<tr>
+<td>Power bank → ESP32</td>
+<td>5 V</td>
+<td>El microcontrolador</td>
+</tr>
+<tr>
+<td>3.3 V del ESP32 → VCC y STBY</td>
+<td>3.3 V</td>
+<td>La lógica interna del puente H</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conexiones">Conexiones</h3>
+<table>
+<thead>
+<tr>
+<th>Desde</th>
+<th>Hacia</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Batería (+)</td>
+<td>Interruptor</td>
+<td>Encendido / apagado de los motores</td>
+</tr>
+<tr>
+<td>Interruptor</td>
+<td>VM del puente H</td>
+<td>Alimentación de potencia de 6 V</td>
+</tr>
+<tr>
+<td>Power bank (5 V)</td>
+<td>ESP32</td>
+<td>Alimentación del microcontrolador</td>
+</tr>
+<tr>
+<td>Batería (−)</td>
+<td>GND común</td>
+<td>Tierra compartida por todo el circuito</td>
+</tr>
+<tr>
+<td>GND del ESP32</td>
+<td>GND común</td>
+<td>Tierra compartida con el puente H y la batería</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 17</td>
+<td>AIN1</td>
+<td>Dirección motor izquierdo</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 16</td>
+<td>AIN2</td>
+<td>Dirección motor izquierdo</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 23</td>
+<td>PWMA</td>
+<td>Velocidad motor izquierdo</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 19</td>
+<td>BIN1</td>
+<td>Dirección motor derecho</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 18</td>
+<td>BIN2</td>
+<td>Dirección motor derecho</td>
+</tr>
+<tr>
+<td>ESP32 GPIO 22</td>
+<td>PWMB</td>
+<td>Velocidad motor derecho</td>
+</tr>
+<tr>
+<td>ESP32 3.3 V</td>
+<td>STBY</td>
+<td>Driver siempre habilitado</td>
+</tr>
+<tr>
+<td>ESP32 3.3 V</td>
+<td>VCC del puente H</td>
+<td>Alimentación lógica</td>
+</tr>
+<tr>
+<td>AO1 / AO2</td>
+<td>Motor izquierdo</td>
+<td>Salida de potencia</td>
+</tr>
+<tr>
+<td>BO1 / BO2</td>
+<td>Motor derecho</td>
+<td>Salida de potencia</td>
+</tr>
+</tbody>
+</table>
+<h3 id="agrupacion-de-los-pines-del-tb6612">Agrupación de los pines del TB6612</h3>
+<table>
+<thead>
+<tr>
+<th>Grupo</th>
+<th>Pines</th>
+<th>Quién los usa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Potencia</td>
+<td>VM, GND, AO1/AO2, BO1/BO2</td>
+<td>Pilas y motores</td>
+</tr>
+<tr>
+<td>Lógica</td>
+<td>VCC, GND, STBY</td>
+<td>ESP32 (3.3 V)</td>
+</tr>
+<tr>
+<td>Control</td>
+<td>AIN1, AIN2, PWMA, BIN1, BIN2, PWMB</td>
+<td>Señales del ESP32</td>
+</tr>
+</tbody>
+</table>
+<p>El puente H trabaja con dos voltajes a la vez: 6 V para mover los motores y 3.3 V para su lógica. Como la señal de los GPIO también es de 3.3 V, los niveles coinciden y no hace falta un convertidor.</p>
+<h3 id="mediciones">Mediciones</h3>
+<table>
+<thead>
+<tr>
+<th>Medición</th>
+<th>Valor medido</th>
+<th>Valor esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voltaje de la batería</td>
+<td>___ V</td>
+<td>Cerca de 6 V con pilas nuevas</td>
+</tr>
+<tr>
+<td>Voltaje en el motor (PWM 255)</td>
+<td>___ V</td>
+<td>Un poco menos que el de la batería, por la caída del driver</td>
+</tr>
+<tr>
+<td>Voltaje en el pin 3.3 V del ESP32</td>
+<td>___ V</td>
+<td>Cerca de 3.3 V</td>
+</tr>
+<tr>
+<td>Voltaje en STBY</td>
+<td>___ V</td>
+<td>Cerca de 3.3 V</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lista-de-revision-antes-de-encender">Lista de revisión antes de encender</h3>
+<ol>
+<li>La tierra del ESP32, la del puente H y el negativo de las pilas están unidas.</li>
+<li>STBY está conectado a 3.3 V y no queda al aire.</li>
+<li>VM recibe los 6 V después del interruptor y VCC recibe 3.3 V.</li>
+<li>Cada motor está en su par de salidas (AO1/AO2 el izquierdo, BO1/BO2 el derecho).</li>
+<li>Las pilas están cargadas y bien sujetas en el portapilas.</li>
+</ol>
+<h3 id="limitaciones-del-montaje">Limitaciones del montaje</h3>
+<ul>
+<li>Las uniones de la protoboard mini son sueltas y pueden aflojarse con las vibraciones del carrito. Más adelante convendría soldar o usar terminales atornillables.</li>
+<li>Los cables de los motores y los de señal van cerca; esto puede meter ruido eléctrico en las líneas del ESP32.</li>
+<li>Con pilas gastadas el voltaje baja, y con él la velocidad y la fuerza de los motores, aunque el PWM sea el mismo.</li>
+<li>No hay fusible ni protección contra polaridad invertida, así que conectar mal las pilas puede dañar el puente H.</li>
+</ul>
+<h2 id="problemas-encontrados-y-como-los-resolvi">Problemas encontrados y cómo los resolví</h2>
+<ul>
+<li><strong>Síntoma:</strong> los motores no giraban aunque el programa sí se estaba ejecutando.</li>
+<li><strong>Cómo lo detecté:</strong> medí con el multímetro y no había voltaje en las salidas del puente H.</li>
+<li>
+<p><strong>Solución:</strong> el pin STBY estaba sin conectar. Si no está en nivel alto, el driver permanece apagado. Lo uní a 3.3 V del ESP32.</p>
+</li>
+<li>
+<p><strong>Síntoma:</strong> el ESP32 se reiniciaba cuando los motores arrancaban.</p>
+</li>
+<li><strong>Cómo lo detecté:</strong> el LED del ESP32 se apagaba justo en el momento en que los motores empezaban a girar.</li>
+<li><strong>Solución:</strong> comprobé que todas las tierras estuvieran unidas y cambié a pilas con carga completa. Como arrancar un motor consume un pico de corriente, unas pilas gastadas hacen que el voltaje caiga y afecte al resto del circuito.</li>
+</ul>
+<h2 id="conclusiones-y-aprendizajes">Conclusiones y aprendizajes</h2>
+<ul>
+<li>Un puente H sirve para dos cosas: entregar a los motores más corriente de la que da el ESP32 e invertir el sentido de giro.</li>
+<li>El TB6612FNG apaga sus salidas si STBY no está en nivel alto. Conectarlo directo a 3.3 V evita gastar un GPIO.</li>
+<li>La tierra común es lo que permite que las señales del ESP32 tengan sentido para el puente H. Sin ella los niveles no se interpretan bien.</li>
+<li>Separar la alimentación del control (power bank) de la de los motores (pilas) reduce los problemas cuando los motores arrancan, pero no los elimina si la tierra está mal unida o las pilas están bajas.</li>
+<li>Medir con el multímetro ayuda a descubrir si el fallo está en el programa o en el circuito: si hay señal en los pines de control pero no en las salidas, el problema está en el driver.</li>
+<li>Para la siguiente etapa, conviene que el interruptor y el portapilas queden fijos en el chasis, para que ningún cable se desconecte con el movimiento.</li>
+</ul>
+<h2 id="proximos-pasos">Próximos pasos</h2>
+<ul>
+<li>Terminar el chasis</li>
+<li>Fijar el interruptor, el portapilas y la protoboard para que no se muevan</li>
+<li>Completar la tabla de mediciones con los valores reales</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
